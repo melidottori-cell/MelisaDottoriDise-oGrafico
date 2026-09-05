@@ -1,0 +1,18 @@
+body {background-color: rgb(250, 204, 239);}
+#MI-TRABAJO {color: blueviolet; font-family: cursive; font-size: large; }
+
+    
+#descripcion {
+    font-family: serif; 
+}
+
+#Banners-Gigantografias {Font-family: cursive; font-size: medium }
+#Portaretratos {Font-family: cursive; font-size:medium }
+#Tarjeteria {Font-family: cursive; font-size:medium }
+#Folleteria {Font-family: cursive; font-size:medium }
+#Contacto {Font-family: cursive; font-size:medium }
+
+.imagenes {width :200 }
+.imagenes {height :100 }
+.logo {width :300 }
+.logo {height :100}
