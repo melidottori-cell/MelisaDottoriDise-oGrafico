@@ -44,3 +44,9 @@ body {background-color: rgb(250, 204, 239);}
 .imagenes {height :100 }
 .logo {width :300 }
 .logo {height :100}
+
+.oculto {display:none;}
+
+#bbtn-ver-mas {color:#FD3DB5 ; font-family: 
+    Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;}
