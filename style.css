@@ -1,6 +1,11 @@
 body {background-color: rgb(250, 204, 239);}
 
-#MI-TRABAJO {color: rgb(226, 43, 153); font-family: cursive; font-size: large; }
+#MD-Diseño-Grafico { color:#e4063e;font-family: sans-serif; font-size: larger ;}
+
+#MI-TRABAJO {color: rgb(206, 112, 168); font-family: cursive; font-size: large; }
+
+#descripcion {font-family: sans-serif;}
+
 .nav-links a{
     color:#f7f1f5;
     font-family: "Ephesis"; 
@@ -16,7 +21,7 @@ body {background-color: rgb(250, 204, 239);}
 }
 
 .nav-links {
-    background-color: blueviolet;
+    background-color: rgb(241, 101, 125);
     display:flex; 
     justify-content: space-around;
     list-style: none;
@@ -47,6 +52,79 @@ body {background-color: rgb(250, 204, 239);}
 
 .oculto {display:none;}
 
-#bbtn-ver-mas {color:#FD3DB5 ; font-family: 
+.btn-ver-mas {color:#faf6f8 ; font-family: 
     Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;}
+    font-size: large; background-color: #ee0d58;}
+
+
+.carousel-section {margin: 25px 0;}
+.carousel-container 
+{position:relative;
+ max-width: 900px;
+ margin: 0 auto;
+overflow: hidden;
+border-radius: 12 px;
+box-shadow: 0   8px 20px rgb(0,0,0,0.25);
+background-color: #000; }
+        
+.carousel-slides 
+{position: relative;
+height: 450px;}
+
+.slide {position: absolute;
+ top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: opacity 0.8s ease-in-out;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.slide.active  {opacity: 1;
+z-index:1;}
+
+.slide img {
+width:100% ;
+height: 100%;
+object-fit: cover;}
+
+.carousel-caption{
+position: absolute;
+bottom:0;
+width: 100%;
+background: #000;
+color:#ffff;
+text-align:center;
+padding: 15px 20px;}
+
+.carousel-caption h3{
+font-size: 1,5rem;
+color:#ddd;}
+
+.carousel-btn {position:absolute;
+ top:50%;
+ transform:translateY(-50%);
+background-color: rgba (0,0,0,0,5);
+color:white ;
+font-size: 24px;
+padding:12px,18px;
+border: none;
+cursor:pointer;
+border-radius: 50%;
+z-index:10;
+transition: background-color 0.3s, transform 0,2s 
+}
+
+.carousel-btn:hover{
+background-color:rgba(0,0,0,0.85);
+transform: translateY(-50%) scale(1.1)}
+
+.carousel-btn.prev {left:15px;}
+.carousel-btn.next{right: 15px}
+
+
+
+
+
